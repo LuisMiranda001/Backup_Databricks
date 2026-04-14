@@ -15,3 +15,10 @@ workspaces using Python and Databricks REST APIs.
 ## Use Case
 Designed to support governance, disaster recovery, and operational
 automation in data engineering environments.
+
+## Configuration
+
+This project uses environment variables to manage sensitive credentials.
+
+Copy `.env.example` to `.env` and define the required values locally.
+The `.env` file is intentionally ignored by Git to prevent credential leaks.
